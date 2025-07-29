@@ -8,7 +8,7 @@ function App() {
       </p>
       <p>This is a simple homepage deployed on GitHub Actions using Vite.</p>
       <p>
-        Done With Git Pages And Actions
+        Done With Git Pages & Actions and all.......
       </p>
     </div>
   );
