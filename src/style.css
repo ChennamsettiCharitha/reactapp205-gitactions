@@ -1,57 +1,19 @@
-/* Main container style */
 .container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
   text-align: center;
   margin-top: 100px;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  padding: 20px;
-  background-color: #f9f9f9;
-  border-radius: 12px;
-  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+  font-family: Arial, sans-serif;
 }
 
-/* Heading style */
-.container h1 {
-  color: #0066cc;
-  font-size: 3rem;
-  margin-bottom: 20px;
+h1 {
+  color: #0077cc;
 }
 
-/* Paragraph style */
-.container p {
-  font-size: 1.2rem;
-  color: #333;
-  margin: 10px 0;
-  max-width: 600px;
-}
-
-/* Highlighted span styles */
-.highlight-blue {
-  background-color: #3498db;
+.highlight {
+  background-color: #0077cc;
   color: white;
   padding: 6px 12px;
-  border-radius: 6px;
-  margin-right: 6px;
+  border-radius: 4px;
   font-weight: bold;
-}
-
-.highlight-green {
-  background-color: #2ecc71;
-  color: white;
-  padding: 6px 12px;
-  border-radius: 6px;
-  margin: 0 6px;
-  font-weight: bold;
-}
-
-.highlight-orange {
-  background-color: #e67e22;
-  color: white;
-  padding: 6px 12px;
-  border-radius: 6px;
-  margin-left: 6px;
-  font-weight: bold;
+  display: inline-block;
+  margin-top: 10px;
 }
